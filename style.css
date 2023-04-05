@@ -1,0 +1,95 @@
+.body{
+    background-color: antiquewhite;
+}
+
+.content{
+    border-radius: 14px;
+    background: rgb(255, 250, 250);
+}
+.content h1{
+    font-size: 57px;
+    color: rgb(0, 102, 255);
+    margin-top: 20px;
+    /* text-decoration: underline !important; */
+    background: #121FCF;
+background: linear-gradient(to right, #121FCF 20%, #CF25BE 56%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+
+.content h3{
+    display: block;
+    color: rgba(45, 65, 247, 0.836);
+    font-weight: bold;
+}
+
+.paragraph p{
+color: rgb(102, 102, 102);
+margin: 0px;
+padding: 0px;
+}
+.box2{
+    border-top:  5px solid rgb(87, 86, 86) ;
+}
+@media (min-width:786px) {
+    
+    .image{
+        margin-top: 20px;
+        width: 600px;
+        display: block;
+        margin: auto;
+    }
+    .input-date{
+        border: none;
+        color: gray;
+        outline: none;
+        width: 200px;
+    }
+}
+@media (max-width:786px) {
+    .image{
+        margin-top: 20px;
+        width: 300px;
+        display: block;
+        margin: auto;
+    } 
+    .input-date{
+        border: none;
+        color: gray;
+        outline: none;
+        width: 35px;
+    } 
+    body{
+        background-color: aliceblue;
+    }
+}
+.form{
+    border-bottom: 2px solid gray; 
+}
+
+.form-check input{
+    height: 25px;
+    width: 25px;
+}
+.form-check label{
+    font-size: 32px;
+    padding-left: 20px;
+}
+.form-check p{
+    color: rgb(187, 25, 25);
+    margin-left: 50px;
+    font-size: 27px;
+}
+.sucess-alert{
+    background-color: rgb(214, 255, 203);
+    width: 400px;
+    font-size: 22px;
+    border-radius: 14px;
+    font-weight: bold;
+    height: 50px;
+    color: rgb(2, 255, 36);
+    margin: auto;
+    margin-bottom: 100px;
+}
